@@ -210,3 +210,52 @@ nav {
     left: 240px;
     height: 90px;
 }
+    /* Celulares */
+@media screen and (max-width: 500px) {
+    /*navegação*/
+    .nav1, ul {
+        display: none; 
+    }
+    /*Corpo*/
+   .corpo1{
+    display: block;
+    margin: 0;
+    padding: 0;
+   }
+
+   .img-logo1 {
+    position: relative;
+    left: 80px;
+   }
+
+    .titulos1, h1 {
+        text-align: center;
+        font-size: 20px;
+    }   
+    .paragrafo-1, #tam-text {
+        position: relative;
+        left: 80px;
+        text-align: center;
+        font-size: 20px;
+        width: 300px;
+        text-wrap: wrap;
+    }
+
+    .vem-m {
+        position: relative;
+        left: 80px;
+    }
+
+    .btn {
+        position: relative;
+        left: 80px;
+        padding-top: 20px;
+    }
+    .imagem1 {
+        display: none;
+    }
+}
+    /* Tablets */
+@media (min-width: 768px) and (max-width: 1024px){
+    
+}
