@@ -296,5 +296,78 @@ nav {
 }
     /* Tablets */
 @media (min-width: 768px) and (max-width: 1024px){
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .corpo1 {
+        z-index: 1;
+    }
+    .img-logo>img {
+        position: relative;
+        right: 100px;
+    }
+    .nav1 {
+        position: relative;
+        right: 630px;
+    }
+    .titulos1>h1 {
+        position: relative;
+        right: 100px;
+    }
+
+    .paragrafo-1 {
+        position: relative;
+        right: 370px;
+        font-size: 30px;
+    }
+    .vem-m {
+        width: 400px;
+    }
+
+    .imagem1>img {
+        position: relative;
+        right: 490px;
+        top: 150px;
+        height: 470px;
+        z-index: 1;
+    }
+
+    .Modal {
+        position: relative;
+        right: 210px;
+        height: 500px;
+    }
+
+    .btn {
+        position: relative;
+        left: 120px;
+    }
+
+    .painel-login-ns>input {
+        height: 40px;
+        border-radius: 10px;
+    }
+    .painel-login-ns {
+        height: 10px;
+        position: relative;
+        right: 90px;
+
+    }
+    .bnt2 {
+        position: relative;
+        top: 510px;
+    } 
     
+    .modalcorpo {
+        height: 900px;
+    }
+    .imagem-2 {
+        position: relative;
+        right: 400px;
+    }
+    .corpo1 {
+        position: relative;
+        right: 2px;
+    }
 }
